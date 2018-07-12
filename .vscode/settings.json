@@ -1,0 +1,8 @@
+{    
+	"javascript.validate.enable": true,
+	"eslint.enable": true,
+	"files.associations": {
+		"system_error": "cpp",
+		"thread": "cpp"
+	}
+}
