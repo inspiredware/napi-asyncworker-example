@@ -11,7 +11,6 @@ void SimpleAsyncWorker::Execute() {
 };
 
 void SimpleAsyncWorker::OnOK() {
-    HandleScope scope(Env());
     std::string msg = "SimpleAsyncWorker returning after 'working' " + std::to_string(runTime) + " seconds.";
     Callback().Call({Env().Null(), String::New(Env(), msg)});
 };
